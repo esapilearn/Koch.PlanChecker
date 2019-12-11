@@ -60,8 +60,8 @@
     <Reference Include="CommonServiceLocator, Version=2.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
       <HintPath>..\packages\Unity.5.8.13\lib\net45\CommonServiceLocator.dll</HintPath>
     </Reference>
-    <Reference Include="ESAPIX, Version=1.5.3.11, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\ESAPIX_15.5.1.5.3.11\lib\net452\ESAPIX.dll</HintPath>
+    <Reference Include="ESAPIX, Version=1.5.2.9, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\ESAPIX_15.5.1.5.2.9\lib\net45\ESAPIX.dll</HintPath>
     </Reference>
     <Reference Include="ESAPIX.Bootstrapper, Version=1.5.2.9, Culture=neutral, processorArchitecture=AMD64">
       <HintPath>..\packages\ESAPIX_Bootstrapper_15.5.1.5.2.9\lib\net45\ESAPIX.Bootstrapper.dll</HintPath>
@@ -137,10 +137,10 @@
       <HintPath>..\packages\Unity.5.8.13\lib\net45\Unity.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="VMS.TPS.Common.Model.API, Version=1.0.200.43, Culture=neutral, PublicKeyToken=305b81e210ec4b89, processorArchitecture=AMD64">
-      <HintPath>..\packages\ESAPI_15.5.15.5.11.13\lib\net45\VMS.TPS.Common.Model.API.dll</HintPath>
+      <HintPath>..\packages\ESAPIX_15.5.1.5.2.9\lib\net45\VMS.TPS.Common.Model.API.dll</HintPath>
     </Reference>
     <Reference Include="VMS.TPS.Common.Model.Types, Version=1.0.200.43, Culture=neutral, PublicKeyToken=305b81e210ec4b89, processorArchitecture=AMD64">
-      <HintPath>..\packages\ESAPI_15.5.15.5.11.13\lib\net45\VMS.TPS.Common.Model.Types.dll</HintPath>
+      <HintPath>..\packages\ESAPIX_15.5.1.5.2.9\lib\net45\VMS.TPS.Common.Model.Types.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -151,6 +151,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CTDateConstraint.cs" />
+    <Compile Include="PlanConstraint.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="Views\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
