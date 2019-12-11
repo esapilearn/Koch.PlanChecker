@@ -11,10 +11,7 @@ namespace Koch.PlanChecker.ViewModels
 
         public MainViewModel()
         {
-            //Initialize with first loaded plan if any
-            OnPlanChanged(VMS.GetValue(sac => sac.PlanSetup));
-            //Handle plan changes (in standalone mode)
-            VMS.Execute(sac => sac.PlanSetupChanged += OnPlanChanged);
+            
         }
 
         public void OnPlanChanged(PlanSetup ps)
