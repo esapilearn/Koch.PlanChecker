@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koch.PlanChecker", "Koch.PlanChecker\Koch.PlanChecker.csproj", "{98F619AB-68AC-463F-A218-3E1A94361321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koch.PlanCheckerTests", "Koch.PlanCheckerTests\Koch.PlanCheckerTests.csproj", "{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{98F619AB-68AC-463F-A218-3E1A94361321}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98F619AB-68AC-463F-A218-3E1A94361321}.Release|x64.ActiveCfg = Release|x64
 		{98F619AB-68AC-463F-A218-3E1A94361321}.Release|x64.Build.0 = Release|x64
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE3CCA3C-7C5E-43F2-B985-0F5C7CC806DB}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
